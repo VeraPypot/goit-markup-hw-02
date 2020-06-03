@@ -1,0 +1,84 @@
+/* цвет основного текста #212121 */
+/* вторичный цвет текста  #757575;*/
+/* белый #FFFFFF  */
+/* акцент #2196F3 */
+/* вторичный цвет фона #F5F4FA; */
+/* цвет иконок #AFB1B8; */
+/* цвет фона футера #2F303A */
+:root {
+  --primary-text-color: #212121;
+  --title-text-color: #757575;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+}
+
+.list {
+  list-style: none;
+}
+
+body {
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+}
+
+.logo {
+  color: var(--title-text-color);
+}
+
+.logo:hover {
+  color: var(--accent-color);
+}
+
+/* Site nav */
+
+.site-nav .link {
+  color: var(--accent-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--primary-text-color);
+}
+
+.site-nav .link.current {
+  color: var(--primary-text-color);
+}
+
+.hero-title {
+  color: var(--primary-text-color);
+}
+
+/* Section */
+
+.section-title {
+  color: var(--primary-text-color);
+}
+
+/* Features */
+
+.feature-list .title {
+  color: var(--primary-text-color);
+}
+
+/* Examples */
+
+.work-list .title {
+  color: var(--primary-text-color);
+}
+
+/* Button */
+
+.button {
+  color: var(--primary-text-color);
+  background-color: var(--primary-white-color);
+}
+
+.button.primary {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+.button.secondary {
+  color: var(--accent-color);
+  background-color: var(--primary-white-color);
+}
